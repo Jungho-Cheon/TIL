@@ -8,4 +8,4 @@
 
 ### React
 
-[ReactElement vs ReactNode vs JSX.Element](https://github.com/Jungho-Cheon/TIL/blob/master/react/ReactNode_vs_ReactElement_vs_JSXElement.md)
+[ReactElement vs ReactNode vs JSX.Element](https://github.com/Jungho-Cheon/TIL/blob/master/react/ReactNode_vs_%20ReactElement_vs_JSXElement.md)
