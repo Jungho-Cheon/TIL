@@ -4,8 +4,12 @@
 
 ### Javascript
 
-[Object vs Map](https://github.com/Jungho-Cheon/TIL/blob/master/javascript/object_vs_map.md)
+[Object vs Map](/javascript/object_vs_map.md)
 
 ### React
 
-[ReactElement vs ReactNode vs JSX.Element](https://github.com/Jungho-Cheon/TIL/blob/master/react/ReactNode_vs_ReactElement_vs_JSXElement.md)
+[ReactElement vs ReactNode vs JSX.Element](/react/ReactNode_vs_ReactElement_vs_JSXElement.md)
+
+### Webpack
+
+[Code Splitting](/webpack/code_splitting.md)
