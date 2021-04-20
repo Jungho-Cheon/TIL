@@ -10,7 +10,8 @@ SPA의 특성상 작업량이 많아질수록 하나로 번들링된 javascript�
 
 우선 하나의 파일로 번들링했을 때 `webpack-bundle-analyzer` 플러그인을 이용해 번들을 시각화하면 다음과 같다.
 ![](https://miro.medium.com/max/700/1*Tzo7ki8deVX0ADRFCm1E7Q.png)
-_출처 https://angular-evan.medium.com/using-webpack-bundle-analyzer-to-cure-identify-your-bundle-bloat-57477678ac7b_
+
+*출처 https://angular-evan.medium.com/using-webpack-bundle-analyzer-to-cure-identify-your-bundle-bloat-57477678ac7b*
 
 bundle.js에 모든 파일들이 하나로 번들링 된 것을 알 수 있다. 웹팩 공식문서에 따르면 동적인 `Code Splitting`을 사용하기 위해 Dynamic Imports를 지원하며, 이를 위한 문법으로 ECMAScript을 준수하는 `import()`와 기존 레거시에 대한 접근으로는 `require.ensure()`를 사용할 수 있다고 한다. 해당 내용은 [React.js 도큐먼트](https://reactjs.org/docs/code-splitting.html#import)에서도 소개하고 있다. CRA와 같은 프로젝트 생성툴을 통해 프로젝트를 생성하게 되면 내부적으로 설정된 webpack을 통해 react.js와 next.js에서도 사용할 수 있다.
 
@@ -60,6 +61,7 @@ webpack 5.4.0 compiled successfully in 268 ms
 이렇게 분리된 번들은 사용자의 앱에서 필요할 때 `지연 로딩`되어 성능 향상과 함께
 초기화에 대한 비용을 획기적으로 줄여 준다. Code Splitting을 이용하여 페이지를 구성하는 컴포넌트와 외부 패키지를 Dynamic Import하게 되면 최종적으로 만들어지는 번들의 상태는 다음과 같아질 것이다.
 ![](https://cloud.githubusercontent.com/assets/302213/20628702/93f72404-b338-11e6-92d4-9a365550a701.gif)
-_출처 https://www.npmjs.com/package/webpack-bundle-analyzer_
+
+*출처 https://www.npmjs.com/package/webpack-bundle-analyzer*
 
 > 참고 사진은 각각 다른 프로젝트로 예시를 위해 스크랩함.
