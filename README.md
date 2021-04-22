@@ -9,7 +9,7 @@
 
 ### React
 
-[ReactElement vs ReactNode vs JSX.Element](/react/ReactNode_vs_%20ReactElement_vs_JSXElement.md)
+[ReactElement vs ReactNode vs JSX.Element](/react/ReactNode_vs_ReactElement_vs_JSXElement.md)
 
 ### Webpack
 

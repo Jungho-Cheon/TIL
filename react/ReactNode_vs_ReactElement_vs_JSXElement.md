@@ -18,7 +18,7 @@ interface FunctionComponent<P = {}> {
 
 ## JSX.Element
 
-JSX는 React에서 제공하는 `createElement()`를 대체하여 html과 같은 구성으로 코드를 작성하기 위한 Syntatic Sugar이다. 이런 편의를 제공하기 위해 global namespace에 정의되어져 있는 것이 JSX이다. 정의되어있는 부분을 찾아보았다.
+JSX는 React에서 제공하는 `createElement()`를 대체하여 html과 같은 구성으로 코드를 작성하기 위한 Syntactic Sugar이다. 이런 편의를 제공하기 위해 global namespace에 정의되어져 있는 것이 JSX이다. 정의되어있는 부분을 찾아보았다.
 
 ```typescript
 declare global {
