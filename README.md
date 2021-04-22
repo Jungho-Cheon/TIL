@@ -5,7 +5,8 @@
 ### Javascript
 
 [Object vs Map](/javascript/object_vs_map.md)
-[Sync/Async](/javasscript/sync-async.md)
+
+[Sync/Async](/javascript/sync-async.md)
 
 ### React
 
