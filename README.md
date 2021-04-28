@@ -4,16 +4,18 @@
 
 ### Javascript
 
-[Object vs Map](/javascript/object_vs_map.md)
+- [Object vs Map](/javascript/object_vs_map.md)
 
-[Sync/Async](/javascript/sync-async.md)
+- [Sync/Async](/javascript/sync-async.md)
 
-[CJS, AMD, UMD, ESM](/javascript/cjs_amd_umd_esm.md)
+- [CJS, AMD, UMD, ESM](/javascript/cjs_amd_umd_esm.md)
+
+- [Event Delegation](/javascript/event_delegation.md)
 
 ### React
 
-[ReactElement vs ReactNode vs JSX.Element](/react/ReactNode_vs_ReactElement_vs_JSXElement.md)
+- [ReactElement vs ReactNode vs JSX.Element](/react/ReactNode_vs_ReactElement_vs_JSXElement.md)
 
 ### Webpack
 
-[Code Splitting](/webpack/code_splitting.md)
+- [Code Splitting](/webpack/code_splitting.md)
