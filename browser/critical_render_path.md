@@ -71,3 +71,8 @@ DOM 트리와 CSSOM 트리가 완성되면 브라우저는 이 둘을 결합하�
 ## Paint
 
 개별 노드를 실제 픽셀로 나타내게 된다. 브라우저는 초당 60프레임의 부드러운 화면을 사용자에게 보여주기 위해서 요소들을 `Layer`라는 단위로 나누어 미리 픽셀값들을 연산해놓고 뷰포트에 보이는 부분을 `Composite(합성)` 하기도 한다. 이 과정에서 GPU를 사용하게 된다고 한다.
+
+
+> 참조
+> https://developers.google.com/web/fundamentals/performance/critical-rendering-path/analyzing-crp?hl=ko
+> https://medium.com/comparethemarket/critical-render-path-optimisation-how-to-increase-your-page-speed-820241a4552f
