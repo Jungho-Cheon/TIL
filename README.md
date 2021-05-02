@@ -22,7 +22,7 @@
 
 ## Test
 
--[Jest와 @testing-library/react를 이용한 컴포넌트 테스트](/test/jest_introduction.md)
+- [Jest와 @testing-library/react를 이용한 컴포넌트 테스트](/test/jest_introduction.md)
 
 ## Browser
 
