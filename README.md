@@ -20,6 +20,10 @@
 
 - [Code Splitting](/webpack/code_splitting.md)
 
+## Test
+
+-[Jest와 @testing-library/react를 이용한 컴포넌트 테스트](/test/jest_introduction.md)
+
 ## Browser
 
 - [Critical Render Path](/browser/critical_render_path.md)
