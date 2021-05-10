@@ -14,6 +14,8 @@
 
 - [Functional Programming 1](/javascript/functional_programming_1.md)
 
+- [Functional Programming 2](/javascript/functional_programming_2.md)
+
 ## React
 
 - [ReactElement vs ReactNode vs JSX.Element](/react/ReactNode_vs_ReactElement_vs_JSXElement.md)
